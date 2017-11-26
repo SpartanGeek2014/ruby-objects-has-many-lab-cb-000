@@ -5,11 +5,11 @@ class Post
     @title = title
   end
 
-  def author_name
-    if self.author
-      self.author.name
-    else
-      nil
+    def author_name
+      if self.author
+        self.author.name
+      else
+        nil
+    end
   end
-
 end
